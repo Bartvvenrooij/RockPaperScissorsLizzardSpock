@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+
+header, footer {
+    text-align: center;
+}
+
+div[role="main"] {
+    width: 35%;
+    margin: 0 32.5%;
+}
+
+#imagesection {
+    text-align: center;
+    width: 100%;
+}
+
+.images {
+    width: 150px;
+    height: 150px;
+    opacity: 1;
+}
+
+fieldset {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+label {
+    margin-top: 20px;
+    display: block;
+}
+
+.images:hover {
+    opacity: 0.6;
+}
+
+footer {
+    padding-top: 10px;
+}
